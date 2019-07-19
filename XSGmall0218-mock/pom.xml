@@ -11,5 +11,13 @@
 
     <artifactId>XSGmall0218-mock</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.xiaoshan</groupId>
+            <artifactId>XSGmall0218-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
