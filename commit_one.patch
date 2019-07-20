@@ -1,0 +1,14 @@
+Index: XSGmall0218-common/src/main/java/com/gmall/test/Hello.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- XSGmall0218-common/src/main/java/com/gmall/test/Hello.java	(date 1563541851000)
++++ XSGmall0218-common/src/main/java/com/gmall/test/Hello.java	(date 1563541970247)
+@@ -8,6 +8,5 @@
+ 
+     public static void main(String[] args) {
+         System.out.println("hello github");
+-        System.out.println("hello github");
+     }
+ }
