@@ -9,6 +9,7 @@
         <module name="XSGmall0218-common" />
         <module name="XSGmall0218-logger" />
         <module name="XSGmall0218-mock" />
+        <module name="XSGmall0218-realtime" />
       </profile>
     </annotationProcessing>
   </component>

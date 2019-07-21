@@ -11,6 +11,8 @@
     <modules>
         <module>XSGmall0218-common</module>
         <module>XSGmall0218-mock</module>
+        <module>XSGmall0218-logger</module>
+        <module>XSGmall0218-realtime</module>
     </modules>
 
     <parent>

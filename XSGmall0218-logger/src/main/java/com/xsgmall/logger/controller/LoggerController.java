@@ -26,7 +26,7 @@ public class LoggerController {
 
     @GetMapping("test")
     public  String getTest(){
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!1");
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!");
         return "success";
     }
 
