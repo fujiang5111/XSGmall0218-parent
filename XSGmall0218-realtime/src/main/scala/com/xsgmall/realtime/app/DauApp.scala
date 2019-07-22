@@ -113,9 +113,9 @@ object DauApp {
 
 
     // 4 保存到hbase
-//    distinctDstream.foreachRDD{rdd=>
-//      rdd.saveToPhoenix("xsgmall0218_dau",Seq("MID", "UID", "APPID", "AREA", "OS", "CH", "TYPE", "VS", "LOGDATE", "LOGHOUR", "TS"),new Configuration,Some("hadoop102,hadoop103,hadoop104:2181"))
-//    }
+    distinctDstream.foreachRDD{rdd=>
+      rdd.saveToPhoenix("xsgmall0218_dau",Seq("MID", "UID", "APPID", "AREA", "OS", "CH", "TYPE", "VS", "LOGDATE", "LOGHOUR", "TS"),new Configuration,Some("hadoop102,hadoop103,hadoop104:2181"))
+    }
 
     ssc.start()
     ssc.awaitTermination()

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="XSGmall0218-realtime,XSGmall0218-common" />
+    <profile name="Maven 1" modules="XSGmall0218-common,XSGmall0218-realtime" />
   </component>
 </project>
