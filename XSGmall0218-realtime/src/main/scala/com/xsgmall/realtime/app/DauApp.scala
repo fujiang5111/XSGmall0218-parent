@@ -28,7 +28,6 @@ object DauApp {
     val conf: SparkConf = new SparkConf().setAppName("dau_app").setMaster("local[*]")
     val ssc = new StreamingContext(conf,Seconds(5))
 
-
     // 1 消费kafka
     val inputDStream: InputDStream[ConsumerRecord[String, String]] = MyKafka.getKafkaStream(GmallConstant.KAFKA_TOPIC_STARUP,ssc)
 
