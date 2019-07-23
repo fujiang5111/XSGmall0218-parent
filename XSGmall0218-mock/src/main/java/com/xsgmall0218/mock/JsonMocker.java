@@ -130,7 +130,7 @@ public class JsonMocker {
         String appid=this.appId;
         String area=areaOptionGroup.getRandomOpt().getValue();
         String vs = vsOptionGroup.getRandomOpt().getValue();
-        //long ts= logDateUtil.getRandomDate().getTime();
+//        long ts= logDateUtil.getRandomDate().getTime();
         String ch=os.equals("ios")?"appstore": channelOptionGroup.getRandomOpt().getValue();
 
 

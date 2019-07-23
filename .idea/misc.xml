@@ -6,7 +6,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/XSGmall0218-logger/pom.xml" />
+        <option value="$PROJECT_DIR$/dw-chart/pom.xml" />
+        <option value="$PROJECT_DIR$/XSGmall0218-publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/xsgmall0218-publisher/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/XSGmall0218-publisher/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

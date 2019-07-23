@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dw-chart" />
+        <module name="xsgmall0218-canal" />
         <module name="XSGmall0218-common" />
         <module name="XSGmall0218-logger" />
         <module name="XSGmall0218-mock" />
+        <module name="xsgmall0218-publisher" />
         <module name="XSGmall0218-realtime" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="XSGmall0218-publisher" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

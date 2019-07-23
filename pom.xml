@@ -13,6 +13,7 @@
         <module>XSGmall0218-mock</module>
         <module>XSGmall0218-logger</module>
         <module>XSGmall0218-realtime</module>
+        <module>xsgmall0218-canal</module>
     </modules>
 
     <parent>
