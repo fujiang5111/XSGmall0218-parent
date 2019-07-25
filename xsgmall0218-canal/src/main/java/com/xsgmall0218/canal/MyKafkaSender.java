@@ -25,6 +25,7 @@ public class MyKafkaSender {
         }catch (Exception e){
             e.printStackTrace();
         }
+
         return producer;
     }
 
